@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+}
+.gallery{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+ .gallery img {
+     width: 30px;
+     height: 400px;
+     object-fit: cover;
+     border-radius: 10px;
+     border: 2px solid white;
+     transition: all ease-out 0.5s;
+     cursor: pointer;
+
+ }
+ .gallery img:hover{
+    width: 100%;
+ }
+ 
